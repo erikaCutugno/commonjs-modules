@@ -1,9 +1,8 @@
 function fullName (firstName, lastName){
-   const full = {
+   return {
         firstName,
         lastName
     }
-    return full
 }
 
 module.exports = fullName;
